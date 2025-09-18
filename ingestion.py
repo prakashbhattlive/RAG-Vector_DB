@@ -9,7 +9,7 @@ from langchain.embeddings import OllamaEmbeddings
 
 ##local embedding configuration
 OLLAMA_URL = "http://192.168.1.6:11434"
-OLLAMA_MODEL = "mxbai-embed-large:latest"
+OLLAMA_MODEL = "mxbai-embed-large:latest" # choose your model here and make sure dimension matches with Pinecone index dimension or configure accordingly.
 
 
 # ✅ Initialize Ollama embedding model with remote base_url
