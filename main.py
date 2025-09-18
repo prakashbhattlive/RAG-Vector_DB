@@ -13,7 +13,7 @@ from langchain.chains.retrieval import create_retrieval_chain
 load_dotenv()
 
 # Local embedding configuration
-OLLAMA_URL = "http://192.168.1.6:11434"
+OLLAMA_URL = "http://192.168.1.6:11434" # Replace with your local Ollama server URL or localhost if running locally in a same machine
 OLLAMA_MODEL = "mxbai-embed-large:latest"
 
 # Initialize embedding model
